@@ -1,61 +1,62 @@
 # Python
 # 🚀 Proyecto Python: Resolución de Katas y Fundamentos de Programación
 
-Este README contiene el desarrollo completo, la metodología, la arquitectura de código y los ejercicios resueltos pertenecientes a la colección de Katas de lógica de programación en Python.
+Este repositorio reúne la resolución paso a paso, la metodología y la estructura de código utilizadas para resolver una colección de ejercicios prácticos (Katas) en Python. El objetivo principal ha sido poner en práctica la lógica de programación y dominar los conceptos clave del lenguaje.
 
 ---
 
 ## 📊 Tecnologías Utilizadas
 
 * **Lenguaje:** Python 3.10+
-* **Módulos Estándar:** `functools` (`reduce`), `datetime`
-* **Entorno de Desarrollo:** Visual Studio Code
+* **Librerías estándar:** `functools` (`reduce`), `datetime`
+* **Entorno de trabajo:** Visual Studio Code
 
 ---
 
-## 📋 INFORME EXPLICATIVO DEL PROYECTO
+## 📋 SOBRE EL PROYECTO Y LOS EJERCICIOS
 
-El conjunto de ejercicios está diseñado como un catálogo exhaustivo de prácticas en Python, simulando la resolución de problemas reales divididos en tres pilares fundamentales: la **manipulación de colecciones**, el **procesamiento funcional de datos** y el **diseño orientado a objetos (POO)**.
-
----
-
-### 📈 1. Paradigma Funcional y Procesamiento de Datos
-
-* **Iteración Eficiente con `map()`:** Transformación masiva de datos sin necesidad de bucles explícitos, aplicando operaciones de duplicado de valores, cálculo de longitudes de palabras y conversiones de listas de tuplas a cadenas formateadas.
-* **Filtrado Avanzado con `filter()` e Expresiones `Lambda`:** Selección de subconjuntos de datos según criterios dinámicos (como el filtrado de mascotas prohibidas en España, la extracción de palabras por longitud o la selección de estudiantes con calificaciones sobresalientes `≥ 90`).
-* **Reducción de Colecciones con `reduce()`:** Aplicación de funciones acumulativas para construir números enteros a partir de listas de dígitos, calcular productos totales, restar valores en secuencia y concatenar cadenas de texto.
-* **Matemáticas de Fondo:** Cálculo de factoriales mediante funciones recursivas y operaciones estadísticas para evaluar promedios ponderados con redondeo de decimales.
+El proyecto está planteado como un recorrido práctico por los pilares fundamentales de Python. A través de diferentes retos, se abordan problemas habituales organizados en tres bloques principales: **procesamiento funcional**, **tratamiento de datos y excepciones**, y **diseño orientado a objetos**.
 
 ---
 
-### 🛠️ 2. Arquitectura de Código y Control de Excepciones
+### 📈 1. Programación Funcional y Manejo de Datos
 
-Para garantizar la robustez, modularidad y mantenibilidad de la aplicación, se implementaron las siguientes soluciones técnicas:
-
-* **Manejo Riguroso de Excepciones (`try-except`, `raise`):** Validación contra la división por cero, captura de datos no numéricos (`ValueError`) e implementación de validaciones de límites en entradas de usuario (como rangos de edad permitidos de 0 a 120 años).
-* **Tratamiento de Cadenas de Texto:** Funciones avanzadas para el conteo e identificación de frecuencias de letras (descartando espacios), verificación de palabras anagramas y enmascaramiento de datos sensibles (ocultando caracteres excepto los últimos 4 dígitos).
-* **Procesamiento Horario con `datetime`:** Validación e interpretación de horas introducidas por el usuario en formato `HH:MM` para clasificarlas automáticamente en franjas de mañana, tarde o noche.
-
----
-
-### 🏗️ 3. Diseños de Clases en POO (Programación Orientada a Objetos)
-
-El proyecto modela entidades relacionales complejas mediante clases personalizadas que gestionan su propio estado interno:
-
-* **Clase `Arbol`:** Modelo de estructura mutable que controla la relación entre la longitud del tronco y una colección dinámica de ramas, proporcionando métodos para añadir, hacer crecer o podar elementos específicos.
-* **Clase `UsuarioBanco`:** Simulación de un sistema de cuenta bancaria que implementa encapsulamiento para validar saldos y estados de cuenta activas antes de permitir operaciones de ingreso, retiro o transferencia directa entre usuarios.
+* **Transformación con `map()`:** Procesamiento directo de listas y estructuras para duplicar valores, calcular longitudes de cadenas o formatear tuplas sin necesidad de recurrir a bucles `for` tradicionales.
+* **Filtrado con `filter()` y `lambda`:** Selección de datos basada en condiciones específicas, como filtrar especies de mascotas, extraer palabras por su número de letras o seleccionar estudiantes con notas destacadas (`≥ 90`).
+* **Acumulación con `reduce()`:** Uso de funciones acumulativas para construir números enteros desde listas de dígitos, calcular productos consecutivos, restar secuencias de valores y combinar textos.
+* **Lógica matemática:** Aplicación de funciones recursivas para calcular factoriales y operaciones estadísticas simples para obtener promedios ponderados y redondear resultados.
 
 ---
 
-## 🗺️ Esquema de la Estructura de Ejercicios
+### 🛠️ 2. Control de Errores y Tratamiento de Textos
 
-El script principal organiza la lógica en los siguientes bloques de aprendizaje:
+Para conseguir un código limpio y capaz de gestionar imprevistos, se aplicaron las siguientes soluciones:
 
-1. **Transformación e Iteración:** Ejercicios 2, 4, 7, 12, 13, 15, 33 (Operaciones avanzadas con `map` y `lambda`).
-2. **Filtrado y Selección:** Ejercicios 3, 9, 14, 16, 18, 19, 20 (Filtros de listas, tuplas y diccionarios con `filter`).
-3. **Agregación y Reducción:** Ejercicios 17, 22, 23, 24 (Acumulaciones complejas con `reduce`).
-4. **Validación y Excepciones:** Ejercicios 8, 10, 11, 31 (Control de errores y validación de tipos).
-5. **Algoritmos y Lógica General:** Ejercicios 1, 5, 6, 25, 26, 27, 28, 29, 30, 32, 37, 38, 39, 40, 41 (Lógica condicional, recursividad, fechas y enmascarado).
-6. **Programación Orientada a Objetos:** Ejercicios 34 y 36 (Diseño de las clases `Arbol` y `UsuarioBanco`).
+* **Gestión de excepciones (`try-except`, `raise`):** Control de errores comunes como divisiones por cero, conversión de tipos con `ValueError` y validación de rangos (por ejemplo, comprobar que una edad esté entre 0 y 120 años).
+* **Manipulación de cadenas:** Funciones para contar frecuencia de caracteres (omitendo espacios), detectar si dos palabras son anagramas y enmascarar datos personales dejando visibles solo los últimos 4 dígitos.
+* **Uso de `datetime`:** Análisis e interpretación de horas ingresadas por el usuario en formato `HH:MM` para determinar automáticamente la franja horaria (mañana, tarde o noche).
 
 ---
+
+### 🏗️ 3. Programación Orientada a Objetos (POO)
+
+Se han diseñado clases personalizadas para representar entidades con su propio estado y reglas de negocio:
+
+* **Clase `Arbol`:** Representa un árbol dinámico que vincula la altura del tronco con una lista de ramas, ofreciendo métodos para hacer crecer el tronco, añadir ramas o podarlas según se necesite.
+* **Clase `UsuarioBanco`:** Simula una cuenta bancaria con validación de saldo y estado activo antes de realizar operaciones como ingresos, retiradas o transferencias de dinero entre usuarios.
+
+---
+
+## 🗺️ Organización de los Ejercicios
+
+Los ejercicios del script principal están agrupados según el concepto de programación que trabajan:
+
+1. **Transformación de datos (`map`, `lambda`):** Ejercicios 2, 4, 7, 12, 13, 15, 33
+2. **Filtrado de información (`filter`):** Ejercicios 3, 9, 14, 16, 18, 19, 20
+3. **Agregación de datos (`reduce`):** Ejercicios 17, 22, 23, 24
+4. **Validaciones y excepciones (`try-except`):** Ejercicios 8, 10, 11, 31
+5. **Lógica general, fechas y cadenas:** Ejercicios 1, 5, 6, 25, 26, 27, 28, 29, 30, 32, 37, 38, 39, 40, 41
+6. **Clases y Objetos (POO):** Ejercicios 34 (`Arbol`) y 36 (`UsuarioBanco`)
+
+---
+
