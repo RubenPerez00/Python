@@ -1,62 +1,43 @@
-# Python
-# 🚀 Proyecto Python: Resolución de Katas y Fundamentos de Programación
+🐍 Python: Katas y Fundamentos
+¡Hola! 👋 Este repositorio es el espacio donde voy guardando los ejercicios, katas y retos de código que voy resolviendo para dominar las bases de Python y mejorar mi lógica de programación día a día.
 
-Este repositorio reúne la resolución paso a paso, la metodología y la estructura de código utilizadas para resolver una colección de ejercicios prácticos (Katas) en Python. El objetivo principal ha sido poner en práctica la lógica de programación y dominar los conceptos clave del lenguaje.
+La idea no es solo que el código funcione, sino aprender a escribir un Python más limpio, eficiente y legible en el proceso.
 
----
+📊 Tecnologías Utilizadas
+Lenguaje: Python 3.10+
 
-## 📊 Tecnologías Utilizadas
+Herramientas de la librería estándar: functools (reduce), datetime, collections
 
-* **Lenguaje:** Python 3.10+
-* **Librerías estándar:** `functools` (`reduce`), `datetime`
-* **Entorno de trabajo:** Visual Studio Code
+Editor: Visual Studio Code
 
----
+📋 SOBRE EL PROYECTO Y LOS EJERCICIO
+He ido organizando los retos por bloques conceptuales según los temas que he ido trabajando:
 
-## 📋 SOBRE EL PROYECTO Y LOS EJERCICIOS
+🧠 1. Programación Funcional y Manipulación de Datos
+Aquí el objetivo fue dejar a un lado los bucles for tradicionales cuando no hacían falta y apoyarme en herramientas más pythonicas:
 
-El proyecto está planteado como un recorrido práctico por los pilares fundamentales de Python. A través de diferentes retos, se abordan problemas habituales organizados en tres bloques principales: **procesamiento funcional**, **tratamiento de datos y excepciones**, y **diseño orientado a objetos**.
+map(): Transformación rápida de listas (calcular longitudes de texto, duplicar números, formatear tuplas).
 
----
+filter() + lambda: Filtrado de colecciones según reglas específicas (extraer ciertas palabras, filtrar notas superiores a 90, clasificar elementos).
 
-### 📈 1. Programación Funcional y Manejo de Datos
+reduce(): Acumulación de datos para construir números a partir de listas de dígitos, productos acumulados o combinación de textos.
 
-* **Transformación con `map()`:** Procesamiento directo de listas y estructuras para duplicar valores, calcular longitudes de cadenas o formatear tuplas sin necesidad de recurrir a bucles `for` tradicionales.
-* **Filtrado con `filter()` y `lambda`:** Selección de datos basada en condiciones específicas, como filtrar especies de mascotas, extraer palabras por su número de letras o seleccionar estudiantes con notas destacadas (`≥ 90`).
-* **Acumulación con `reduce()`:** Uso de funciones acumulativas para construir números enteros desde listas de dígitos, calcular productos consecutivos, restar secuencias de valores y combinar textos.
-* **Lógica matemática:** Aplicación de funciones recursivas para calcular factoriales y operaciones estadísticas simples para obtener promedios ponderados y redondear resultados.
+Lógica y matemáticas: Uso de recursividad (como el cálculo de factoriales) y operaciones estadísticas como promedios ponderados.
 
----
+🛡️ 2. Control de Errores y Manejo de Textos
+Escribir código que no rompa a la primera oportunidad:
 
-### 🛠️ 2. Control de Errores y Tratamiento de Textos
+Excepciones con try-except y raise: Manejo de fallos típicos como divisiones entre cero, validación de tipos (ValueError) o comprobación de rangos (por ejemplo, validar que una edad sea real).
 
-Para conseguir un código limpio y capaz de gestionar imprevistos, se aplicaron las siguientes soluciones:
+Cadenas de texto: Contar frecuencia de caracteres, detectar anagramas o enmascarar datos sensibles (mostrar solo los últimos 4 dígitos).
 
-* **Gestión de excepciones (`try-except`, `raise`):** Control de errores comunes como divisiones por cero, conversión de tipos con `ValueError` y validación de rangos (por ejemplo, comprobar que una edad esté entre 0 y 120 años).
-* **Manipulación de cadenas:** Funciones para contar frecuencia de caracteres (omitendo espacios), detectar si dos palabras son anagramas y enmascarar datos personales dejando visibles solo los últimos 4 dígitos.
-* **Uso de `datetime`:** Análisis e interpretación de horas ingresadas por el usuario en formato `HH:MM` para determinar automáticamente la franja horaria (mañana, tarde o noche).
+Fechas y horas con datetime: Parseo de horas en formato HH:MM para clasificar franjas horarias (mañana, tarde, noche).
 
----
+🏗️ 3. Programación Orientada a Objetos (POO)
+Modelado de problemas usando clases, atributos y métodos con reglas de negocio claras:
 
-### 🏗️ 3. Programación Orientada a Objetos (POO)
+Clase Arbol: Un modelo dinámico donde la altura del tronco está ligada a sus ramas, permitiendo hacer crecer la planta, añadir ramas o podarla.
 
-Se han diseñado clases personalizadas para representar entidades con su propio estado y reglas de negocio:
+Clase UsuarioBanco: Simulación de una cuenta bancaria con controles de saldo y estado activo para permitir ingresos, retiros y transferencias entre usuarios.
 
-* **Clase `Arbol`:** Representa un árbol dinámico que vincula la altura del tronco con una lista de ramas, ofreciendo métodos para hacer crecer el tronco, añadir ramas o podarlas según se necesite.
-* **Clase `UsuarioBanco`:** Simula una cuenta bancaria con validación de saldo y estado activo antes de realizar operaciones como ingresos, retiradas o transferencias de dinero entre usuarios.
-
----
-
-## 🗺️ Organización de los Ejercicios
-
-Los ejercicios del script principal están agrupados según el concepto de programación que trabajan:
-
-1. **Transformación de datos (`map`, `lambda`):** Ejercicios 2, 4, 7, 12, 13, 15, 33
-2. **Filtrado de información (`filter`):** Ejercicios 3, 9, 14, 16, 18, 19, 20
-3. **Agregación de datos (`reduce`):** Ejercicios 17, 22, 23, 24
-4. **Validaciones y excepciones (`try-except`):** Ejercicios 8, 10, 11, 31
-5. **Lógica general, fechas y cadenas:** Ejercicios 1, 5, 6, 25, 26, 27, 28, 29, 30, 32, 37, 38, 39, 40, 41
-6. **Clases y Objetos (POO):** Ejercicios 34 (`Arbol`) y 36 (`UsuarioBanco`)
-
----
 
