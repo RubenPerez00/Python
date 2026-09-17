@@ -1,15 +1,12 @@
 # 🐍 Python: Katas y Fundamentos
 
-¡Hola! 👋 Este repositorio es el espacio donde voy guardando los ejercicios, katas y retos de código que voy resolviendo para dominar las bases de Python y mejorar mi lógica de programación día a día.
-
-La idea no es solo que el código funcione, sino aprender a escribir un Python más limpio, eficiente y legible en el proceso.
-
+En este repositorio he puesto lo que más importante me ha parecido durante la resolución de los ejercicios. Partía de un conocimiento nulo sobre Python y poco a poco he ido cogiendo soltura, aún me queda mucho por ver y aprender pero sí que es verdad que por lo menos todo lo que veo en el código lo comprendo, que para mí es lo más importante, saber de donde vienen las cosas y darles un sentido.
 ---
 
 ## 📊 Tecnologías Utilizadas
 
 * **Lenguaje:** Python 3.10+
-* **Herramientas de la librería estándar:** `functools` (`reduce`), `datetime`, `collections`
+* **Herramientas de la librería estándar:** `functools` (`reduce`), `datetime`.
 * **Editor:** Visual Studio Code
 
 ---
@@ -41,11 +38,9 @@ Escribir código que no rompa a la primera oportunidad:
 
 ### 🏗️ 3. Programación Orientada a Objetos (POO)
 
-Modelado de problemas usando clases, atributos y métodos con reglas de negocio claras:
+Modelado de problemas usando clases, atributos y métodos:
 
-* **Clase `Arbol`**: Un modelo dinámico donde la altura del tronco está ligada a sus ramas, permitiendo hacer crecer la planta, añadir ramas o podarla.
+* **Clase `Arbol`**: Un modelo dinámico donde la altura del tronco está ligada a sus ramas, permitiendo hacer crecer la planta, añadir ramas o eliminarlas.
 * **Clase `UsuarioBanco`**: Simulación de una cuenta bancaria con controles de saldo y estado activo para permitir ingresos, retiros y transferencias entre usuarios.
 
 ---
-
-💡 *Este repositorio se va actualizando a medida que voy resolviendo nuevos ejercicios.*
