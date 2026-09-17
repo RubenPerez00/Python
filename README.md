@@ -21,7 +21,7 @@ He ido organizando los retos por bloques conceptuales según los temas que he id
 
 ### 🧠 1. Programación Funcional y Manipulación de Datos
 
-Aquí el objetivo fue dejar a un lado los bucles `for` tradicionales cuando no hacían falta y apoyarme en herramientas más *pythonicas*:
+Aquí el objetivo fue dejar a un lado los bucles `for` tradicionales cuando no hacían falta y apoyarme en otro tipo de herramientas como pueden ser:
 
 * **`map()`**: Transformación rápida de listas (calcular longitudes de texto, duplicar números, formatear tuplas).
 * **`filter()` + `lambda`**: Filtrado de colecciones según reglas específicas (extraer ciertas palabras, filtrar notas superiores a 90, clasificar elementos).
