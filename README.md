@@ -1,6 +1,6 @@
 # 🐍 Python: Katas y Fundamentos
 
-En este repositorio he puesto lo que más importante me ha parecido durante la resolución de los ejercicios. Partía de un conocimiento nulo sobre Python y poco a poco he ido cogiendo soltura, aún me queda mucho por ver y aprender pero sí que es verdad que por lo menos todo lo que veo en el código lo comprendo, que para mí es lo más importante, saber de donde vienen las cosas y darles un sentido.
+** *En este repositorio he puesto lo que más importante me ha parecido durante la resolución de los ejercicios. Partía de un conocimiento nulo sobre Python y poco a poco he ido cogiendo soltura, aún me queda mucho por ver y aprender pero sí que es verdad que por lo menos todo lo que veo en el código lo comprendo, que para mí es lo más importante, saber de donde vienen las cosas y darles un sentido.
 ---
 
 ## 📊 Tecnologías Utilizadas
